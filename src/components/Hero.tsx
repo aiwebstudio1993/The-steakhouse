@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
           loop
           muted
           playsInline
-          poster="/src/assets/images/gallery_prime_ribeye_1791544895790.jpg"
+          poster="/images/gallery_prime_ribeye_1791544895790.jpg"
           onLoadedData={() => setVideoLoaded(true)}
           className={`w-full h-full object-cover object-center transform scale-105 transition-opacity duration-1000 ${
             videoLoaded ? 'opacity-90' : 'opacity-70'

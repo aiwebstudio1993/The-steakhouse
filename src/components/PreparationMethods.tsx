@@ -149,12 +149,12 @@ export const PreparationMethods: React.FC = () => {
                 <img
                   src={
                     activeStepIndex === 0
-                      ? '/src/assets/images/gallery_prime_ribeye_1791544895790.jpg'
+                      ? '/images/gallery_prime_ribeye_1791544895790.jpg'
                       : activeStepIndex === 1
-                      ? '/src/assets/images/gallery_tomahawk_sear_1791544914264.jpg'
+                      ? '/images/gallery_tomahawk_sear_1791544914264.jpg'
                       : activeStepIndex === 2
-                      ? '/src/assets/images/gallery_tomahawk_sear_1791544914264.jpg'
-                      : '/src/assets/images/gallery_wagyu_a5_cut_1791544925870.jpg'
+                      ? '/images/gallery_tomahawk_sear_1791544914264.jpg'
+                      : '/images/gallery_wagyu_a5_cut_1791544925870.jpg'
                   }
                   alt={activeMethod.title}
                   className="w-full h-full object-cover"
