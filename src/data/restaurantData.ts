@@ -88,6 +88,7 @@ export const MENU_ITEMS: MenuItem[] = [
     recommendedDoneness: 'Rare or Medium Rare (128°F)',
     winePairing: '2021 Domaine Dujac Morey-Saint-Denis Pinot Noir',
     dietary: ['gluten-free'],
+    image: '/images/filet_mignon.jpg',
   },
 
   // Starters
